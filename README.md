@@ -12,7 +12,7 @@
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://emdorgan.github.io/updated-portfolio/)
 
 ## Screenshots
 

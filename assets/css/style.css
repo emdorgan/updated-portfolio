@@ -4,3 +4,29 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #121212;
+}
+
+.nav-custom{
+  background-color: rgb(29, 21, 143);
+  font-size: 1.5em;
+}
+
+.nav-custom a, .nav-custom a:visited {
+  color: white;
+}
+.custom-hamburger {
+  color: white;
+  font-size: 2em;
+}
+.nav-custom a:hover{
+  color: pink;
+}
+.my-name{
+  font-size: 1.5em;
+}
+.custom-align{
+  flex-grow: 0;
+}
