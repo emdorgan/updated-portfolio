@@ -27,6 +27,49 @@ body{
 .my-name{
   font-size: 1.5em;
 }
+
 .custom-align{
   flex-grow: 0;
+}
+
+.profile {
+  height: 152px;
+  width: 152px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+section {
+  color: white;
+  height: 100vh;
+  padding-top:  190px;
+  margin-left: 2%;
+}
+
+@media only screen and (max-width: 990px){
+  .profile {
+    height: 100px;
+    width: 100px;
+  }
+
+  section {
+    padding-top:  140px;
+
+  }
+}
+
+@media only screen and (max-width: 426px){
+  
+  .profile {
+    display: none;
+  }
+
+  .my-name{
+    font-size: 1.2em;
+  }
+
+  section {
+    padding-top:  80px;
+
+  }
 }
