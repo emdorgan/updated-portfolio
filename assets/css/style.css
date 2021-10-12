@@ -1,3 +1,7 @@
+:root {
+  --mainSiteColor: rgb(62, 74, 136); /* Learned to avoid using saturated colors on dark themes */
+}
+
 *,
 *::before,
 *::after {
@@ -10,7 +14,7 @@ body{
 }
 
 .nav-custom{
-  background-color: rgb(29, 21, 143);
+  background-color: var(--mainSiteColor);
   font-size: 1.5em;
 }
 
@@ -61,7 +65,6 @@ section h2 {
   border: none;
 }
 
-/* change this on mobile size media query */
 .landing-text { 
   margin: 10% 20% 20% 25%;
 }
@@ -103,9 +106,14 @@ section article {
 .custom-card-body {
   text-align: center;
 }
+
+.custom-card img {
+  opacity:0.8;
+}
+
 .custom-btn {
-  background-color:rgb(29, 21, 143);
-  border-color: rgb(29, 21, 143);
+  background-color:var(--mainSiteColor);
+  border-color: var(--mainSiteColor);
   margin: 5px;
 }
 
@@ -199,5 +207,8 @@ footer{
 
   #portfolio {
     height: 310vh;
+  }
+  .landing-text { 
+    margin: 10% 5% 20% 5%;
   }
 }

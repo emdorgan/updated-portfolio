@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 <body>
+  <!-- Using Bootstrap navbar with my own custom behaviors-->
     <nav class="navbar navbar-expand-lg text-white fixed-top nav-custom">
         <div class="container-fluid">
           <a class="navbar-brand my-name" href="index.html"><h1>Emily Dorgan</h1></a>
@@ -40,6 +41,7 @@
           </div>
         </div>
     </nav>
+    <!-- landing page -->
     <section id="landing-page" class="container-fluid">
       <div class ="landing-text">
         <h2>I'm Emily (she/her) and I'm a Full Stack Web Developer</h2>
@@ -47,8 +49,10 @@
       </div>
   </section>
     <section id="portfolio" class="container-fluid">
+      <!-- Portfolio page -->
         <h2>My Work</h2>
         <article class="portfolio-cards">
+          <!-- Bootstrap cards with my edits -->
           <div class="card custom-card">
             <a href="https://starryblue7.github.io/kitschy-app/">
               <img src="assets/img/kitschy.png" class="card-img-top" alt="kitschy app screenshot">
@@ -72,7 +76,9 @@
             </div>
           </div>
           <div class="card custom-card">
-            <img src="assets/img/day-planner.png" class="card-img-top" alt="kitschy app screenshot">
+            <a href="https://emdorgan.github.io/day-planner/">
+              <img src="assets/img/day-planner.png" class="card-img-top" alt="kitschy app screenshot">
+            </a>
             <div class="card-body custom-card-body">
               <h3 class="card-title">Workday Scheduler</h3>
               <p class="card-text">Shows the current date & time, allows user to save scheduled events.</p>
@@ -81,7 +87,9 @@
             </div>
           </div>
           <div class="card custom-card">
-            <img src="assets/img/code-quiz.png" class="card-img-top" alt="kitschy app screenshot">
+            <a href="https://emdorgan.github.io/code-quiz/">
+              <img src="assets/img/code-quiz.png" class="card-img-top" alt="kitschy app screenshot">
+            </a>
             <div class="card-body custom-card-body">
               <h3 class="card-title">Code Quiz</h3>
               <p class="card-text">Code Quiz on JavaScript, features highscore table using local storage.</p>
