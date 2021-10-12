@@ -1,14 +1,6 @@
-# Project Name
+# Updated Portfolio
 
-
-
-## To Do list
-
-* 
-
-## Getting Started
-
-
+The portfolio has been rebuilt from scratch. Some content has been preserved but the styling is completely different and 4 projects are featured. I went with a 'dark theme' aesthetic this time around, and used boostrap for the navigation bar and the content cards. Resume is now attached and has been rewritten to account for all my new skills. 
 
 ## Deployed Link
 
@@ -22,7 +14,6 @@
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Bootstrap](https://getbootstrap.com/)
 
 
@@ -30,6 +21,10 @@
 
 * **Emily Dorgan** 
 
-- [Link to Portfolio Site](https://emdorgan.github.io/portfolio/)
+- [Link to Portfolio Site](https://emdorgan.github.io/updated-portfolio/)
 - [Link to Github](https://github.com/emdorgan)
 - [Link to LinkedIn](https://www.linkedin.com/in/emily-dorgan/)
+
+## License
+
+This project is licensed under the MIT License
