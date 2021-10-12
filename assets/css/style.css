@@ -30,6 +30,7 @@ body{
 }
 .my-name{
   font-size: 1.5em;
+  padding-left: 30px;
 }
 
 .custom-align{
@@ -99,7 +100,7 @@ section article {
 
 .custom-card {
   background-color: rgb(44, 44, 44);
-  border-color: rgb(44, 44, 44);
+  border: 2px solid var(--mainSiteColor);
   margin: 20px;
   width: 24rem;
 }
@@ -210,5 +211,8 @@ footer{
   }
   .landing-text { 
     margin: 10% 5% 20% 5%;
+  }
+  #about-me {
+    height: 130vh;
   }
 }
