@@ -8,7 +8,9 @@ The portfolio has been rebuilt from scratch. Some content has been preserved but
 
 ## Screenshots
 
-
+![Landing page](screenshots/landing.png)
+![Project Cards](screenshots/cards.png)
+![Mobile Viewport](screenshots/mobile.png)
 
 ## Built With
 
