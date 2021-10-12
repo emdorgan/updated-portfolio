@@ -46,6 +46,11 @@ section {
   margin-left: 2%;
   margin-right: 2%;
 }
+
+#portfolio {
+  height: 200vh;
+}
+
 section h2 {
   border-bottom: 1px solid white;
   padding-left: 2%;
@@ -82,6 +87,33 @@ section article {
   font-size: 1.2em;
   padding-left: 10px;
 }
+
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.custom-card {
+  background-color: rgb(44, 44, 44);
+  border-color: rgb(44, 44, 44);
+  margin: 20px;
+  width: 24rem;
+}
+.custom-card-body {
+  text-align: center;
+}
+.custom-btn {
+  background-color:rgb(29, 21, 143);
+  border-color: rgb(29, 21, 143);
+  margin: 5px;
+}
+
+.custom-btn:hover {
+  background-color:rgb(80, 106, 155);
+  border-color: rgb(80, 106, 155);
+}
+
 .contact-me a{
   text-decoration: none;
   color:rgb(167, 198, 255);
@@ -105,7 +137,6 @@ section article {
 }
 
 .picture-frame {
-  border: 10px ridge white;
   max-width: 400px;
   max-height: 300px;
   transform: rotate(-5deg);
@@ -139,6 +170,13 @@ footer{
     max-width: 200px;
     max-height: 150px;
   }
+  #portfolio {
+    height: 250vh;
+  }
+
+  .custom-card {
+    width: 20rem;
+  }
 }
 
 @media only screen and (max-width: 426px){
@@ -154,5 +192,12 @@ footer{
   section {
     padding-top:  80px;
 
+  }
+  .custom-card {
+    width: 16rem;
+  }
+
+  #portfolio {
+    height: 310vh;
   }
 }
