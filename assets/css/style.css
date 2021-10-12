@@ -92,6 +92,36 @@ section article {
 .contact-me i {
   padding: 5px;
 }
+.about-me p {
+  text-indent: 50px;
+  padding: 30px 2% 30px 2%;
+}
+
+.picture-album {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.picture-frame {
+  border: 10px ridge white;
+  max-width: 400px;
+  max-height: 300px;
+  transform: rotate(-5deg);
+}
+
+.picture-frame img {
+  width:100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+footer{
+  color: white;
+  text-align: center;
+}
 
 @media only screen and (max-width: 990px){
   .profile {
@@ -102,6 +132,12 @@ section article {
   section {
     padding-top:  140px;
 
+  }
+  .picture-frame img {
+    width:100%;
+    height: auto;
+    max-width: 200px;
+    max-height: 150px;
   }
 }
 
